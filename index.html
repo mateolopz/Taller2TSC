@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Series de television</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body style="background-color:rgb(229, 250, 253)">
+    <div class="container" style="background-color:rgb(240, 232, 222)">
+        <div class="row">
+            <div class="col-sm-6">
+                <table class="table">
+                    <thead style="background-color:rgb(71, 67, 67)">
+                       <tr>
+                          <th style="color:white">#</th>
+                          <th style="color:white">Name</th>
+                          <th style="color:white">Channel</th>
+                          <th style="color:white">Seasons</th>
+                       </tr>
+                    </thead>
+                    <tbody id="series">
+                    </tbody>
+                </table>
+                <div class="row">
+                    <h5 class="col-3">Seasons average:</h5>
+                    <h5 id="average" class="col-9"></h5>
+                </div>
+
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="info-serie" style="width: 25rem;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+    <script type="module" src="./scripts/course.js" ></script>
+    <script type="module" src="./scripts/dataCourses.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

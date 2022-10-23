@@ -1,0 +1,20 @@
+h5 {
+    font-size: 1em;
+  }
+
+button.link { 
+  background:none; border:none; 
+  }
+
+  h6 {
+    padding: 1em;
+  }
+
+  h3 {
+    padding-left: 0.5em;
+  }
+
+  a {
+    padding-bottom: 2em;
+    padding-left: 1em;
+  }
